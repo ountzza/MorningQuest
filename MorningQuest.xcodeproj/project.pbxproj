@@ -15,6 +15,8 @@
 		4B7D0E981E74E5E700A31B2E /* MorningQuestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D0E971E74E5E700A31B2E /* MorningQuestTests.swift */; };
 		4B7D0EA31E74E5E700A31B2E /* MorningQuestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D0EA21E74E5E700A31B2E /* MorningQuestUITests.swift */; };
 		4BE8C2081E7545E20073FDF4 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE8C2071E7545E20073FDF4 /* WelcomeViewController.swift */; };
+		4BE8C20A1E7554EC0073FDF4 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE8C2091E7554EC0073FDF4 /* ActivityViewController.swift */; };
+		4BE8C20C1E7554FD0073FDF4 /* ThankyouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE8C20B1E7554FD0073FDF4 /* ThankyouViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4B7D0EA21E74E5E700A31B2E /* MorningQuestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorningQuestUITests.swift; sourceTree = "<group>"; };
 		4B7D0EA41E74E5E700A31B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BE8C2071E7545E20073FDF4 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		4BE8C2091E7554EC0073FDF4 /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		4BE8C20B1E7554FD0073FDF4 /* ThankyouViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThankyouViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				4B7D0E821E74E5E700A31B2E /* AppDelegate.swift */,
 				4B7D0E841E74E5E700A31B2E /* ViewController.swift */,
 				4BE8C2071E7545E20073FDF4 /* WelcomeViewController.swift */,
+				4BE8C2091E7554EC0073FDF4 /* ActivityViewController.swift */,
+				4BE8C20B1E7554FD0073FDF4 /* ThankyouViewController.swift */,
 				4B7D0E861E74E5E700A31B2E /* Main.storyboard */,
 				4B7D0E891E74E5E700A31B2E /* Assets.xcassets */,
 				4B7D0E8B1E74E5E700A31B2E /* LaunchScreen.storyboard */,
@@ -263,8 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BE8C2081E7545E20073FDF4 /* WelcomeViewController.swift in Sources */,
+				4BE8C20C1E7554FD0073FDF4 /* ThankyouViewController.swift in Sources */,
 				4B7D0E851E74E5E700A31B2E /* ViewController.swift in Sources */,
 				4B7D0E831E74E5E700A31B2E /* AppDelegate.swift in Sources */,
+				4BE8C20A1E7554EC0073FDF4 /* ActivityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

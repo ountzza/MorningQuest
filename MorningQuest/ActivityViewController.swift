@@ -1,5 +1,5 @@
 //
-//  WelcomeViewController.swift
+//  ActivityViewController.swift
 //  MorningQuest
 //
 //  Created by Pondd on 3/12/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class WelcomeViewController: UIViewController {
+class ActivityViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,10 +21,12 @@ class WelcomeViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func ReadyButtonPressed(_ sender: Any) {
+
+    @IBAction func NextButtonPressed(_ sender: Any) {
         let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let aViewController = storyBoard.instantiateViewController(withIdentifier: "ActivityViewController") as! ActivityViewController
-        self.navigationController?.pushViewController(aViewController, animated: true)
+        let tViewController = storyBoard.instantiateViewController(withIdentifier: "ThankyouViewController") as! ThankyouViewController
+        self.navigationController?.pushViewController(tViewController, animated: true)
     }
+
 
 }
