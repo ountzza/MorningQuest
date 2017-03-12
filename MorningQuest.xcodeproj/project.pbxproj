@@ -19,6 +19,9 @@
 		4BE8C20C1E7554FD0073FDF4 /* ThankyouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE8C20B1E7554FD0073FDF4 /* ThankyouViewController.swift */; };
 		4BE8C20E1E7560690073FDF4 /* Rooster-ringtone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BE8C20D1E7560690073FDF4 /* Rooster-ringtone.mp3 */; };
 		4BE8C2101E7561D00073FDF4 /* Adventure.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BE8C20F1E7561D00073FDF4 /* Adventure.mp3 */; };
+		71C8A546D2291A4732CA53EA /* Pods_MorningQuestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBF9BBA6990BC467EDD5F7D /* Pods_MorningQuestUITests.framework */; };
+		A0C85F7A70147584C24E6771 /* Pods_MorningQuest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF41679B7B9C7E70C5A3EA2 /* Pods_MorningQuest.framework */; };
+		D00B00A6990CD43377CC39A9 /* Pods_MorningQuestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 376AB3FE56FD9E687CF74587 /* Pods_MorningQuestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08EE4F85679B3B093A1D27A7 /* Pods-MorningQuest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MorningQuest.release.xcconfig"; path = "Pods/Target Support Files/Pods-MorningQuest/Pods-MorningQuest.release.xcconfig"; sourceTree = "<group>"; };
+		09BD36972A93F1DF1B52BAE2 /* Pods-MorningQuestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MorningQuestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MorningQuestTests/Pods-MorningQuestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A680A2B1EBD197AA204491D /* Pods-MorningQuestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MorningQuestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MorningQuestTests/Pods-MorningQuestTests.release.xcconfig"; sourceTree = "<group>"; };
+		376AB3FE56FD9E687CF74587 /* Pods_MorningQuestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MorningQuestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF41679B7B9C7E70C5A3EA2 /* Pods_MorningQuest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MorningQuest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B7D0E7F1E74E5E700A31B2E /* MorningQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorningQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B7D0E821E74E5E700A31B2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B7D0E841E74E5E700A31B2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +65,10 @@
 		4BE8C20B1E7554FD0073FDF4 /* ThankyouViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThankyouViewController.swift; sourceTree = "<group>"; };
 		4BE8C20D1E7560690073FDF4 /* Rooster-ringtone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rooster-ringtone.mp3"; sourceTree = "<group>"; };
 		4BE8C20F1E7561D00073FDF4 /* Adventure.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Adventure.mp3; sourceTree = "<group>"; };
+		BB910908D538FA1FE57CB75A /* Pods-MorningQuestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MorningQuestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MorningQuestUITests/Pods-MorningQuestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BFBF9BBA6990BC467EDD5F7D /* Pods_MorningQuestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MorningQuestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F392F14280478C9546920CAE /* Pods-MorningQuest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MorningQuest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MorningQuest/Pods-MorningQuest.debug.xcconfig"; sourceTree = "<group>"; };
+		FAB7E9DC9A967C8C93B10C61 /* Pods-MorningQuestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MorningQuestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MorningQuestUITests/Pods-MorningQuestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0C85F7A70147584C24E6771 /* Pods_MorningQuest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D00B00A6990CD43377CC39A9 /* Pods_MorningQuestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +92,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71C8A546D2291A4732CA53EA /* Pods_MorningQuestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19D35FDD9C7AC60F48E0642B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F392F14280478C9546920CAE /* Pods-MorningQuest.debug.xcconfig */,
+				08EE4F85679B3B093A1D27A7 /* Pods-MorningQuest.release.xcconfig */,
+				09BD36972A93F1DF1B52BAE2 /* Pods-MorningQuestTests.debug.xcconfig */,
+				2A680A2B1EBD197AA204491D /* Pods-MorningQuestTests.release.xcconfig */,
+				FAB7E9DC9A967C8C93B10C61 /* Pods-MorningQuestUITests.debug.xcconfig */,
+				BB910908D538FA1FE57CB75A /* Pods-MorningQuestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4B7D0E761E74E5E700A31B2E = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +119,8 @@
 				4B7D0E961E74E5E700A31B2E /* MorningQuestTests */,
 				4B7D0EA11E74E5E700A31B2E /* MorningQuestUITests */,
 				4B7D0E801E74E5E700A31B2E /* Products */,
+				19D35FDD9C7AC60F48E0642B /* Pods */,
+				F88A5D9B68921727D813546A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +170,16 @@
 			path = MorningQuestUITests;
 			sourceTree = "<group>";
 		};
+		F88A5D9B68921727D813546A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CF41679B7B9C7E70C5A3EA2 /* Pods_MorningQuest.framework */,
+				376AB3FE56FD9E687CF74587 /* Pods_MorningQuestTests.framework */,
+				BFBF9BBA6990BC467EDD5F7D /* Pods_MorningQuestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B7D0EA71E74E5E700A31B2E /* Build configuration list for PBXNativeTarget "MorningQuest" */;
 			buildPhases = (
+				57125A750AEB015920AC1F7E /* [CP] Check Pods Manifest.lock */,
 				4B7D0E7B1E74E5E700A31B2E /* Sources */,
 				4B7D0E7C1E74E5E700A31B2E /* Frameworks */,
 				4B7D0E7D1E74E5E700A31B2E /* Resources */,
+				254E2629D84956BF87D148C4 /* [CP] Embed Pods Frameworks */,
+				06A18F73456E853C4B323CE1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B7D0EAA1E74E5E700A31B2E /* Build configuration list for PBXNativeTarget "MorningQuestTests" */;
 			buildPhases = (
+				371C4AF2EED2E2571C5E61F5 /* [CP] Check Pods Manifest.lock */,
 				4B7D0E8F1E74E5E700A31B2E /* Sources */,
 				4B7D0E901E74E5E700A31B2E /* Frameworks */,
 				4B7D0E911E74E5E700A31B2E /* Resources */,
+				EA693D47503943B2E5EE0D5F /* [CP] Embed Pods Frameworks */,
+				6B3D797A1187F43239D07581 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B7D0EAD1E74E5E700A31B2E /* Build configuration list for PBXNativeTarget "MorningQuestUITests" */;
 			buildPhases = (
+				7DF53066B81F8975AF262665 /* [CP] Check Pods Manifest.lock */,
 				4B7D0E9A1E74E5E700A31B2E /* Sources */,
 				4B7D0E9B1E74E5E700A31B2E /* Frameworks */,
 				4B7D0E9C1E74E5E700A31B2E /* Resources */,
+				780994C6445AD6A45BAFB83D /* [CP] Embed Pods Frameworks */,
+				5DBDA42DFB5A66BC83F4963F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -208,6 +257,7 @@
 				TargetAttributes = {
 					4B7D0E7E1E74E5E700A31B2E = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 23AC939X32;
 						ProvisioningStyle = Automatic;
 					};
 					4B7D0E921E74E5E700A31B2E = {
@@ -270,6 +320,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06A18F73456E853C4B323CE1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MorningQuest/Pods-MorningQuest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		254E2629D84956BF87D148C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MorningQuest/Pods-MorningQuest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		371C4AF2EED2E2571C5E61F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		57125A750AEB015920AC1F7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5DBDA42DFB5A66BC83F4963F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MorningQuestUITests/Pods-MorningQuestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B3D797A1187F43239D07581 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MorningQuestTests/Pods-MorningQuestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		780994C6445AD6A45BAFB83D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MorningQuestUITests/Pods-MorningQuestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DF53066B81F8975AF262665 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA693D47503943B2E5EE0D5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MorningQuestTests/Pods-MorningQuestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4B7D0E7B1E74E5E700A31B2E /* Sources */ = {
@@ -430,8 +618,10 @@
 		};
 		4B7D0EA81E74E5E700A31B2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F392F14280478C9546920CAE /* Pods-MorningQuest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 23AC939X32;
 				INFOPLIST_FILE = MorningQuest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pondd.MorningQuest;
@@ -442,8 +632,10 @@
 		};
 		4B7D0EA91E74E5E700A31B2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08EE4F85679B3B093A1D27A7 /* Pods-MorningQuest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 23AC939X32;
 				INFOPLIST_FILE = MorningQuest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pondd.MorningQuest;
@@ -454,6 +646,7 @@
 		};
 		4B7D0EAB1E74E5E700A31B2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09BD36972A93F1DF1B52BAE2 /* Pods-MorningQuestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +661,7 @@
 		};
 		4B7D0EAC1E74E5E700A31B2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A680A2B1EBD197AA204491D /* Pods-MorningQuestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +676,7 @@
 		};
 		4B7D0EAE1E74E5E700A31B2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAB7E9DC9A967C8C93B10C61 /* Pods-MorningQuestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = MorningQuestUITests/Info.plist;
@@ -495,6 +690,7 @@
 		};
 		4B7D0EAF1E74E5E700A31B2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB910908D538FA1FE57CB75A /* Pods-MorningQuestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = MorningQuestUITests/Info.plist;

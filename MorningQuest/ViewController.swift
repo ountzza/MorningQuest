@@ -22,6 +22,7 @@ class ViewController: UIViewController {
             
             player.prepareToPlay()
             player.play()
+            player.numberOfLoops = -1
         } catch let error {
             print(error.localizedDescription)
         }
@@ -35,7 +36,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    override func viewWillDisappear(_ animated: Bool) {
+        player?.pause()
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
