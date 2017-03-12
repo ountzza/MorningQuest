@@ -7,13 +7,31 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
-
+    
+    var player: AVAudioPlayer?
+    
+    func playSound() {
+        let url = Bundle.main.url(forResource: "Rooster-ringtone", withExtension: "mp3")!
+        
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+            guard let player = player else { return }
+            
+            player.prepareToPlay()
+            player.play()
+        } catch let error {
+            print(error.localizedDescription)
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.isNavigationBarHidden = true
-
+        let generator = UIImpactFeedbackGenerator(style: .heavy)
+        generator.impactOccurred()
+        playSound()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

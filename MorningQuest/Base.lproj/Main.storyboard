@@ -44,9 +44,8 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKN-GU-cgQ">
-                                            <rect key="frame" x="88" y="109" width="212" height="236"/>
+                                            <rect key="frame" x="18" y="57" width="344" height="343"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <state key="normal" title="Button"/>
                                             <connections>
                                                 <action selector="MazeSolved:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ulX-PM-inh"/>
                                             </connections>
@@ -284,9 +283,9 @@
                                 <blurEffect style="light"/>
                             </visualEffectView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ycr-EA-PJc">
-                                <rect key="frame" x="79" y="609" width="217" height="50"/>
+                                <rect key="frame" x="79" y="597" width="217" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="readSword"/>
+                                <state key="normal" backgroundImage="readSword"/>
                                 <connections>
                                     <action selector="ReadyButtonPressed:" destination="EZR-14-0pN" eventType="touchUpInside" id="y6J-tX-ohB"/>
                                 </connections>
@@ -357,18 +356,18 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2Y-r8-dz5">
-                                <rect key="frame" x="124" y="618" width="126" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="next"/>
-                                <connections>
-                                    <action selector="NextButtonPressed:" destination="Dcg-gN-LnP" eventType="touchUpInside" id="2CF-mV-LUJ"/>
-                                </connections>
-                            </button>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Pyt-Dh-p8V">
                                 <rect key="frame" x="0.0" y="291" width="375" height="286"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2Y-r8-dz5">
+                                <rect key="frame" x="77" y="597" width="221" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="next"/>
+                                <connections>
+                                    <action selector="NextButtonPressed:" destination="Dcg-gN-LnP" eventType="touchUpInside" id="2CF-mV-LUJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -404,11 +403,6 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="208"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R7S-XS-ama">
-                                            <rect key="frame" x="143" y="149" width="88" height="22"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <state key="normal" image="share"/>
-                                        </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="94k Conquest this morning" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZAz-Ia-wYa">
                                             <rect key="frame" x="26" y="179" width="322" height="38"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -416,6 +410,11 @@
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R7S-XS-ama">
+                                            <rect key="frame" x="107" y="139" width="160" height="40"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" backgroundImage="share"/>
+                                        </button>
                                     </subviews>
                                 </view>
                                 <blurEffect style="light"/>
@@ -442,9 +441,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DAq-6R-WWH">
-                                <rect key="frame" x="124" y="602" width="126" height="29"/>
+                                <rect key="frame" x="78" y="597" width="219" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="backToTaven"/>
+                                <state key="normal" backgroundImage="backToTaven"/>
                                 <connections>
                                     <action selector="BackButtonPressed:" destination="Iva-bE-LNH" eventType="touchUpInside" id="pqq-uN-zk6"/>
                                 </connections>

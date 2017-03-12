@@ -7,12 +7,30 @@
 //
 
 import UIKit
+import AVFoundation
 
 class WelcomeViewController: UIViewController {
-
+    
+    var player: AVAudioPlayer?
+    
+    func playSound() {
+        player?.pause()
+        
+        let url = Bundle.main.url(forResource: "Adventure", withExtension: "mp3")!
+        
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+            guard let player = player else { return }
+            
+            player.prepareToPlay()
+            player.play()
+        } catch let error {
+            print(error.localizedDescription)
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        playSound()
         // Do any additional setup after loading the view.
     }
 

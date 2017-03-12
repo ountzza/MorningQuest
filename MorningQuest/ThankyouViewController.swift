@@ -22,6 +22,7 @@ class ThankyouViewController: UIViewController {
     }
     
     @IBAction func BackButtonPressed(_ sender: Any) {
+        self.navigationController?.popToRootViewController(animated: true)
     }
 
     /*

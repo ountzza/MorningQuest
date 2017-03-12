@@ -17,6 +17,8 @@
 		4BE8C2081E7545E20073FDF4 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE8C2071E7545E20073FDF4 /* WelcomeViewController.swift */; };
 		4BE8C20A1E7554EC0073FDF4 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE8C2091E7554EC0073FDF4 /* ActivityViewController.swift */; };
 		4BE8C20C1E7554FD0073FDF4 /* ThankyouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE8C20B1E7554FD0073FDF4 /* ThankyouViewController.swift */; };
+		4BE8C20E1E7560690073FDF4 /* Rooster-ringtone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BE8C20D1E7560690073FDF4 /* Rooster-ringtone.mp3 */; };
+		4BE8C2101E7561D00073FDF4 /* Adventure.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BE8C20F1E7561D00073FDF4 /* Adventure.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		4BE8C2071E7545E20073FDF4 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		4BE8C2091E7554EC0073FDF4 /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 		4BE8C20B1E7554FD0073FDF4 /* ThankyouViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThankyouViewController.swift; sourceTree = "<group>"; };
+		4BE8C20D1E7560690073FDF4 /* Rooster-ringtone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rooster-ringtone.mp3"; sourceTree = "<group>"; };
+		4BE8C20F1E7561D00073FDF4 /* Adventure.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Adventure.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				4B7D0E891E74E5E700A31B2E /* Assets.xcassets */,
 				4B7D0E8B1E74E5E700A31B2E /* LaunchScreen.storyboard */,
 				4B7D0E8E1E74E5E700A31B2E /* Info.plist */,
+				4BE8C20D1E7560690073FDF4 /* Rooster-ringtone.mp3 */,
+				4BE8C20F1E7561D00073FDF4 /* Adventure.mp3 */,
 			);
 			path = MorningQuest;
 			sourceTree = "<group>";
@@ -241,9 +247,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BE8C2101E7561D00073FDF4 /* Adventure.mp3 in Resources */,
 				4B7D0E8D1E74E5E700A31B2E /* LaunchScreen.storyboard in Resources */,
 				4B7D0E8A1E74E5E700A31B2E /* Assets.xcassets in Resources */,
 				4B7D0E881E74E5E700A31B2E /* Main.storyboard in Resources */,
+				4BE8C20E1E7560690073FDF4 /* Rooster-ringtone.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
