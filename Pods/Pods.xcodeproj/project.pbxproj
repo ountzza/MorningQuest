@@ -1,0 +1,880 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		007E833BDC2283B15A170EA4D983684E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		25C0DF61C1DD740B20E418DBFBFC393B /* GestureControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF9589A4797C96EC243CBA07BCCC0F5 /* GestureControl.swift */; };
+		25E32AB2A28ABDE095F271C03EC8D1BB /* Pods-MorningQuestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E165AC89DA632ED2EAFD7BE503DEFA /* Pods-MorningQuestTests-dummy.m */; };
+		3980061737DDA8580B62DD5EC9699AFC /* FillAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794010B9B81A1F3335AA9348447B8DE /* FillAnimationView.swift */; };
+		42915072935C34D188F71AE8AA9FAF65 /* paper-onboarding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5914E9F6B88A3CF03E65B4783ECB6A /* paper-onboarding-dummy.m */; };
+		543E493541B8D51B1B7EB73926A8257B /* PageContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F20F793EE544B39088594474C5E525 /* PageContainer.swift */; };
+		5C346BA2FE722FFD9AECA2B065CA75E1 /* OnboardingContantViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347F29CA71480328183EDB2F6D7FFBC7 /* OnboardingContantViewItem.swift */; };
+		601386AE5CE3E0891E2A6425C3032EC5 /* Configuring.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93237544DDEFB7CC2842CF99D71BA65 /* Configuring.swift */; };
+		745ECAB7F1B7AA476687321CDDC6A50E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		83D170AC140A698A60E1CE243E534B6A /* PaperOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAD1F6867177A46357CB6E1E99F1552 /* PaperOnboarding.swift */; };
+		91486C4D1079BCC75A14109CA66944E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		921076FDD61321FE005207E8A186A681 /* Pods-MorningQuest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D69ED078C46E9BBECF670AF23103F582 /* Pods-MorningQuest-dummy.m */; };
+		94E7CF97B76B6EB5F54CCAD493B570B7 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826511E957900F324B1CD80CB90D7B72 /* PageView.swift */; };
+		9A1AAA915C5789DFAF83F47F30A1C2D6 /* PageViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ACB669DB13B2A42806601068601109 /* PageViewItem.swift */; };
+		A376D8C60B21FFAEEE95DB842B5FE1B0 /* OnboardingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FAD14B25700301758F00EF031D12A0 /* OnboardingContentView.swift */; };
+		A6ECB2E349126F77E464C916CE23156C /* ConstraintsHalper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1E7E91EA303144C6EE4E88CC75601B /* ConstraintsHalper.swift */; };
+		A76AD3AD3DA1CED507FDB1E4A293A164 /* Pods-MorningQuestTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8471DBA165A5950D6595C4F23F00AD34 /* Pods-MorningQuestTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7C5BF0EACC7FB4273B54367E3C0F6AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B091AC5C96FA203D662A5F04200B955D /* paper-onboarding-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5C7CECBE9FE9747FC98B9D369A9AC7E /* paper-onboarding-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B95E1FBDA524FFEEF2927F34ED72632D /* Pods-MorningQuest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47DEE63907CDC8D054E975EE7AC371FF /* Pods-MorningQuest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4865DDE2C970D891ECE62CE99CCACE2 /* Pods-MorningQuestUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2518DD971EB9C99E8BD5455B59DC5606 /* Pods-MorningQuestUITests-dummy.m */; };
+		E28896086760A5140D20C59BB70E93FB /* Pods-MorningQuestUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D5AF9DBEF4882A9938F6C4315D011B9 /* Pods-MorningQuestUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA5D3F3C1AC99359460022D743F2AC30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 436DD5906B4E1B432C3F41AB48B014DF;
+			remoteInfo = "paper-onboarding";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		058F9ACC68B6EFDACB0D35A8438251CC /* Pods-MorningQuestTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MorningQuestTests-frameworks.sh"; sourceTree = "<group>"; };
+		08E165AC89DA632ED2EAFD7BE503DEFA /* Pods-MorningQuestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MorningQuestTests-dummy.m"; sourceTree = "<group>"; };
+		091619777091E4957753E89315E1305F /* Pods-MorningQuestTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MorningQuestTests-resources.sh"; sourceTree = "<group>"; };
+		13A90FDC16DDF214547E9975E59A6CA3 /* Pods-MorningQuestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MorningQuestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		14469012EB2EA55CD7A079854543E12B /* Pods-MorningQuestUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MorningQuestUITests-frameworks.sh"; sourceTree = "<group>"; };
+		175111E40EE36EDA523F37CB154D0B25 /* Pods-MorningQuestUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MorningQuestUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		19FA1DEBBA103AB8548E285E83241450 /* Pods-MorningQuest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MorningQuest-resources.sh"; sourceTree = "<group>"; };
+		1A1339FBF719058E72D3236C61020E2D /* Pods-MorningQuest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MorningQuest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1D2AB57217782B18667C7398FFB23ADC /* Pods_MorningQuestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MorningQuestTests.framework; path = "Pods-MorningQuestTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2518DD971EB9C99E8BD5455B59DC5606 /* Pods-MorningQuestUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MorningQuestUITests-dummy.m"; sourceTree = "<group>"; };
+		2BAA9DD4065331F12E15F8FBE0289129 /* Pods-MorningQuestUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MorningQuestUITests.modulemap"; sourceTree = "<group>"; };
+		2D5AF9DBEF4882A9938F6C4315D011B9 /* Pods-MorningQuestUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MorningQuestUITests-umbrella.h"; sourceTree = "<group>"; };
+		2E84735FC46A6B65077E206EB3AC3D74 /* Pods-MorningQuest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MorningQuest.debug.xcconfig"; sourceTree = "<group>"; };
+		347F29CA71480328183EDB2F6D7FFBC7 /* OnboardingContantViewItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnboardingContantViewItem.swift; path = Source/OnboardingContantView/Item/OnboardingContantViewItem.swift; sourceTree = "<group>"; };
+		3BF8B5886FB0529E8689BCA263130A8A /* paper-onboarding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "paper-onboarding.xcconfig"; sourceTree = "<group>"; };
+		47DEE63907CDC8D054E975EE7AC371FF /* Pods-MorningQuest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MorningQuest-umbrella.h"; sourceTree = "<group>"; };
+		49FAD14B25700301758F00EF031D12A0 /* OnboardingContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnboardingContentView.swift; path = Source/OnboardingContantView/OnboardingContentView.swift; sourceTree = "<group>"; };
+		4B5914E9F6B88A3CF03E65B4783ECB6A /* paper-onboarding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "paper-onboarding-dummy.m"; sourceTree = "<group>"; };
+		551718ACB14D25713EFC1EA5C92A2CA1 /* Pods-MorningQuest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MorningQuest-frameworks.sh"; sourceTree = "<group>"; };
+		5C7E483D26A9A41FA5BC9C6F532EA62D /* Pods-MorningQuestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MorningQuestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5DA0E32ECBCF5476D56E12E39040530D /* Pods_MorningQuest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MorningQuest.framework; path = "Pods-MorningQuest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA3780B8381C25545E21989D0D50834 /* Pods-MorningQuestUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MorningQuestUITests-resources.sh"; sourceTree = "<group>"; };
+		6ED564EEA2B04F957D89474FA248EE86 /* Pods-MorningQuest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MorningQuest.release.xcconfig"; sourceTree = "<group>"; };
+		70E0A1AA30F4D8E856876BAC4139B85E /* paper_onboarding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = paper_onboarding.framework; path = "paper-onboarding.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73180671C2148BB79EEEE0476A902F61 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75CE2401CE73A18B1A653851977D4AD7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7794010B9B81A1F3335AA9348447B8DE /* FillAnimationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FillAnimationView.swift; path = Source/FillAnimatinView/FillAnimationView.swift; sourceTree = "<group>"; };
+		826511E957900F324B1CD80CB90D7B72 /* PageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageView.swift; path = Source/PageView/PageView.swift; sourceTree = "<group>"; };
+		83F4F7299D06EE3E3EA708BC607B7099 /* paper-onboarding.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "paper-onboarding.modulemap"; sourceTree = "<group>"; };
+		8471DBA165A5950D6595C4F23F00AD34 /* Pods-MorningQuestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MorningQuestTests-umbrella.h"; sourceTree = "<group>"; };
+		87ACB669DB13B2A42806601068601109 /* PageViewItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageViewItem.swift; path = Source/PageView/Item/PageViewItem.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93E884F1511D575E41CF3EF7995A6831 /* Pods-MorningQuestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MorningQuestTests.modulemap"; sourceTree = "<group>"; };
+		ABEDACB2941CAE1170D0957C36D8D575 /* paper-onboarding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "paper-onboarding-prefix.pch"; sourceTree = "<group>"; };
+		AC0FC1F0DB341F1838F19FEAE1B10262 /* Pods-MorningQuestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MorningQuestTests.release.xcconfig"; sourceTree = "<group>"; };
+		AF716150B3FBDDD7E4F5D8F7D868C1CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C7CECBE9FE9747FC98B9D369A9AC7E /* paper-onboarding-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "paper-onboarding-umbrella.h"; sourceTree = "<group>"; };
+		B7624843327ECD560A70DB7905378463 /* Pods-MorningQuestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MorningQuestTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BD1E7E91EA303144C6EE4E88CC75601B /* ConstraintsHalper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintsHalper.swift; path = Source/Helpers/ConstraintsHalper.swift; sourceTree = "<group>"; };
+		C7F20F793EE544B39088594474C5E525 /* PageContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageContainer.swift; path = Source/PageView/PageContainerView/PageContainer.swift; sourceTree = "<group>"; };
+		C93237544DDEFB7CC2842CF99D71BA65 /* Configuring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuring.swift; path = Source/Helpers/Configuring.swift; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D69ED078C46E9BBECF670AF23103F582 /* Pods-MorningQuest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MorningQuest-dummy.m"; sourceTree = "<group>"; };
+		DDF9589A4797C96EC243CBA07BCCC0F5 /* GestureControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GestureControl.swift; path = Source/GestureControl/GestureControl.swift; sourceTree = "<group>"; };
+		DE447757B61BBF0318211FCDEF77B354 /* Pods-MorningQuestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MorningQuestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E203D7F7DE5C728821389384DB998869 /* Pods-MorningQuest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MorningQuest.modulemap"; sourceTree = "<group>"; };
+		E93822FBE335FA1DD75C53CE5A1F46A9 /* Pods-MorningQuestUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MorningQuestUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EBAD1F6867177A46357CB6E1E99F1552 /* PaperOnboarding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaperOnboarding.swift; path = Source/PaperOnboarding.swift; sourceTree = "<group>"; };
+		F164A2AF8A64A5DEBA2EF40C72DFA619 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7F38877FA88CE91F3C3C99D02125165 /* Pods-MorningQuestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MorningQuestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F9098CEF17F892055ECD944557CDF518 /* Pods-MorningQuest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MorningQuest-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA1DC5E578A814AE4AC0C83E1183FEE4 /* Pods_MorningQuestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MorningQuestUITests.framework; path = "Pods-MorningQuestUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24D3F0D112A7C18FA9DBCD07AB510062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745ECAB7F1B7AA476687321CDDC6A50E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE7C4F0EE2B1C6292AED32EB4BC3954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7C5BF0EACC7FB4273B54367E3C0F6AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630E7AD6D62B483F8A535629275B0F6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91486C4D1079BCC75A14109CA66944E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B70BC4A6F7B6CF47D3FF59947CF33FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				007E833BDC2283B15A170EA4D983684E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17DFDC16AF580547199934488A2C6615 /* Pods-MorningQuestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				73180671C2148BB79EEEE0476A902F61 /* Info.plist */,
+				2BAA9DD4065331F12E15F8FBE0289129 /* Pods-MorningQuestUITests.modulemap */,
+				175111E40EE36EDA523F37CB154D0B25 /* Pods-MorningQuestUITests-acknowledgements.markdown */,
+				E93822FBE335FA1DD75C53CE5A1F46A9 /* Pods-MorningQuestUITests-acknowledgements.plist */,
+				2518DD971EB9C99E8BD5455B59DC5606 /* Pods-MorningQuestUITests-dummy.m */,
+				14469012EB2EA55CD7A079854543E12B /* Pods-MorningQuestUITests-frameworks.sh */,
+				6CA3780B8381C25545E21989D0D50834 /* Pods-MorningQuestUITests-resources.sh */,
+				2D5AF9DBEF4882A9938F6C4315D011B9 /* Pods-MorningQuestUITests-umbrella.h */,
+				13A90FDC16DDF214547E9975E59A6CA3 /* Pods-MorningQuestUITests.debug.xcconfig */,
+				5C7E483D26A9A41FA5BC9C6F532EA62D /* Pods-MorningQuestUITests.release.xcconfig */,
+			);
+			name = "Pods-MorningQuestUITests";
+			path = "Target Support Files/Pods-MorningQuestUITests";
+			sourceTree = "<group>";
+		};
+		272CAEE12BCCC6A0FA34E636782109BB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				672058E9A22C97123EE4FFDB7C7673F5 /* Pods-MorningQuest */,
+				3A1981054A39810E992EA4773721C5C5 /* Pods-MorningQuestTests */,
+				17DFDC16AF580547199934488A2C6615 /* Pods-MorningQuestUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3A1981054A39810E992EA4773721C5C5 /* Pods-MorningQuestTests */ = {
+			isa = PBXGroup;
+			children = (
+				75CE2401CE73A18B1A653851977D4AD7 /* Info.plist */,
+				93E884F1511D575E41CF3EF7995A6831 /* Pods-MorningQuestTests.modulemap */,
+				F7F38877FA88CE91F3C3C99D02125165 /* Pods-MorningQuestTests-acknowledgements.markdown */,
+				B7624843327ECD560A70DB7905378463 /* Pods-MorningQuestTests-acknowledgements.plist */,
+				08E165AC89DA632ED2EAFD7BE503DEFA /* Pods-MorningQuestTests-dummy.m */,
+				058F9ACC68B6EFDACB0D35A8438251CC /* Pods-MorningQuestTests-frameworks.sh */,
+				091619777091E4957753E89315E1305F /* Pods-MorningQuestTests-resources.sh */,
+				8471DBA165A5950D6595C4F23F00AD34 /* Pods-MorningQuestTests-umbrella.h */,
+				DE447757B61BBF0318211FCDEF77B354 /* Pods-MorningQuestTests.debug.xcconfig */,
+				AC0FC1F0DB341F1838F19FEAE1B10262 /* Pods-MorningQuestTests.release.xcconfig */,
+			);
+			name = "Pods-MorningQuestTests";
+			path = "Target Support Files/Pods-MorningQuestTests";
+			sourceTree = "<group>";
+		};
+		672058E9A22C97123EE4FFDB7C7673F5 /* Pods-MorningQuest */ = {
+			isa = PBXGroup;
+			children = (
+				AF716150B3FBDDD7E4F5D8F7D868C1CA /* Info.plist */,
+				E203D7F7DE5C728821389384DB998869 /* Pods-MorningQuest.modulemap */,
+				1A1339FBF719058E72D3236C61020E2D /* Pods-MorningQuest-acknowledgements.markdown */,
+				F9098CEF17F892055ECD944557CDF518 /* Pods-MorningQuest-acknowledgements.plist */,
+				D69ED078C46E9BBECF670AF23103F582 /* Pods-MorningQuest-dummy.m */,
+				551718ACB14D25713EFC1EA5C92A2CA1 /* Pods-MorningQuest-frameworks.sh */,
+				19FA1DEBBA103AB8548E285E83241450 /* Pods-MorningQuest-resources.sh */,
+				47DEE63907CDC8D054E975EE7AC371FF /* Pods-MorningQuest-umbrella.h */,
+				2E84735FC46A6B65077E206EB3AC3D74 /* Pods-MorningQuest.debug.xcconfig */,
+				6ED564EEA2B04F957D89474FA248EE86 /* Pods-MorningQuest.release.xcconfig */,
+			);
+			name = "Pods-MorningQuest";
+			path = "Target Support Files/Pods-MorningQuest";
+			sourceTree = "<group>";
+		};
+		6A27D507EED79777D66FF5CD2C1BE07E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70E0A1AA30F4D8E856876BAC4139B85E /* paper_onboarding.framework */,
+				5DA0E32ECBCF5476D56E12E39040530D /* Pods_MorningQuest.framework */,
+				1D2AB57217782B18667C7398FFB23ADC /* Pods_MorningQuestTests.framework */,
+				FA1DC5E578A814AE4AC0C83E1183FEE4 /* Pods_MorningQuestUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A8CBBC416758827716173C996317F103 /* Pods */,
+				6A27D507EED79777D66FF5CD2C1BE07E /* Products */,
+				272CAEE12BCCC6A0FA34E636782109BB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87A606C5783DCC8F5382161B33E8902E /* paper-onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				C93237544DDEFB7CC2842CF99D71BA65 /* Configuring.swift */,
+				BD1E7E91EA303144C6EE4E88CC75601B /* ConstraintsHalper.swift */,
+				7794010B9B81A1F3335AA9348447B8DE /* FillAnimationView.swift */,
+				DDF9589A4797C96EC243CBA07BCCC0F5 /* GestureControl.swift */,
+				347F29CA71480328183EDB2F6D7FFBC7 /* OnboardingContantViewItem.swift */,
+				49FAD14B25700301758F00EF031D12A0 /* OnboardingContentView.swift */,
+				C7F20F793EE544B39088594474C5E525 /* PageContainer.swift */,
+				826511E957900F324B1CD80CB90D7B72 /* PageView.swift */,
+				87ACB669DB13B2A42806601068601109 /* PageViewItem.swift */,
+				EBAD1F6867177A46357CB6E1E99F1552 /* PaperOnboarding.swift */,
+				C482B6FF2D9C2F3CBF338CEC34FA7FF6 /* Support Files */,
+			);
+			name = "paper-onboarding";
+			path = "paper-onboarding";
+			sourceTree = "<group>";
+		};
+		A8CBBC416758827716173C996317F103 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87A606C5783DCC8F5382161B33E8902E /* paper-onboarding */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C482B6FF2D9C2F3CBF338CEC34FA7FF6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F164A2AF8A64A5DEBA2EF40C72DFA619 /* Info.plist */,
+				83F4F7299D06EE3E3EA708BC607B7099 /* paper-onboarding.modulemap */,
+				3BF8B5886FB0529E8689BCA263130A8A /* paper-onboarding.xcconfig */,
+				4B5914E9F6B88A3CF03E65B4783ECB6A /* paper-onboarding-dummy.m */,
+				ABEDACB2941CAE1170D0957C36D8D575 /* paper-onboarding-prefix.pch */,
+				B5C7CECBE9FE9747FC98B9D369A9AC7E /* paper-onboarding-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/paper-onboarding";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7033E195A08E45E14DFBAFDBCEA3A9F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76AD3AD3DA1CED507FDB1E4A293A164 /* Pods-MorningQuestTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74D1601891928F11A9364865DFB4A56D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28896086760A5140D20C59BB70E93FB /* Pods-MorningQuestUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFC2A6B36973A78AEF6B7437392BC2B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B091AC5C96FA203D662A5F04200B955D /* paper-onboarding-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0593AEA7A1F563888C141B2FE58BA3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95E1FBDA524FFEEF2927F34ED72632D /* Pods-MorningQuest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2AB55FB58EF3F85148630E41DBDE2DC7 /* Pods-MorningQuestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E1152AAB433D36AFBE591D6363EBDEC /* Build configuration list for PBXNativeTarget "Pods-MorningQuestUITests" */;
+			buildPhases = (
+				A8D3BD0298FD37A8A69C06859423CB89 /* Sources */,
+				2AE7C4F0EE2B1C6292AED32EB4BC3954 /* Frameworks */,
+				74D1601891928F11A9364865DFB4A56D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MorningQuestUITests";
+			productName = "Pods-MorningQuestUITests";
+			productReference = FA1DC5E578A814AE4AC0C83E1183FEE4 /* Pods_MorningQuestUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		436DD5906B4E1B432C3F41AB48B014DF /* paper-onboarding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB603FC3509333BB4AE7F16C71D0EB2 /* Build configuration list for PBXNativeTarget "paper-onboarding" */;
+			buildPhases = (
+				48D727B4D8B32980D8C220851028BB86 /* Sources */,
+				24D3F0D112A7C18FA9DBCD07AB510062 /* Frameworks */,
+				BDFC2A6B36973A78AEF6B7437392BC2B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "paper-onboarding";
+			productName = "paper-onboarding";
+			productReference = 70E0A1AA30F4D8E856876BAC4139B85E /* paper_onboarding.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9D2C2F0FDBB0C85043B5E2615EC6066 /* Pods-MorningQuestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1036A251328EAFFA32D65137EA4364E /* Build configuration list for PBXNativeTarget "Pods-MorningQuestTests" */;
+			buildPhases = (
+				4594EA4ABCB07168CED665E99001C3C8 /* Sources */,
+				B70BC4A6F7B6CF47D3FF59947CF33FF9 /* Frameworks */,
+				7033E195A08E45E14DFBAFDBCEA3A9F6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MorningQuestTests";
+			productName = "Pods-MorningQuestTests";
+			productReference = 1D2AB57217782B18667C7398FFB23ADC /* Pods_MorningQuestTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D084114C9B15D2A07611D8DD17B98BD7 /* Pods-MorningQuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAAD2C50ECA4E6CB9DEC8EB9E7CF958F /* Build configuration list for PBXNativeTarget "Pods-MorningQuest" */;
+			buildPhases = (
+				CD70C2A01D506360EA1931C845339039 /* Sources */,
+				630E7AD6D62B483F8A535629275B0F6F /* Frameworks */,
+				FB0593AEA7A1F563888C141B2FE58BA3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD203CBD396970AA81F961E03C3A1720 /* PBXTargetDependency */,
+			);
+			name = "Pods-MorningQuest";
+			productName = "Pods-MorningQuest";
+			productReference = 5DA0E32ECBCF5476D56E12E39040530D /* Pods_MorningQuest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6A27D507EED79777D66FF5CD2C1BE07E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				436DD5906B4E1B432C3F41AB48B014DF /* paper-onboarding */,
+				D084114C9B15D2A07611D8DD17B98BD7 /* Pods-MorningQuest */,
+				B9D2C2F0FDBB0C85043B5E2615EC6066 /* Pods-MorningQuestTests */,
+				2AB55FB58EF3F85148630E41DBDE2DC7 /* Pods-MorningQuestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4594EA4ABCB07168CED665E99001C3C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E32AB2A28ABDE095F271C03EC8D1BB /* Pods-MorningQuestTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48D727B4D8B32980D8C220851028BB86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				601386AE5CE3E0891E2A6425C3032EC5 /* Configuring.swift in Sources */,
+				A6ECB2E349126F77E464C916CE23156C /* ConstraintsHalper.swift in Sources */,
+				3980061737DDA8580B62DD5EC9699AFC /* FillAnimationView.swift in Sources */,
+				25C0DF61C1DD740B20E418DBFBFC393B /* GestureControl.swift in Sources */,
+				5C346BA2FE722FFD9AECA2B065CA75E1 /* OnboardingContantViewItem.swift in Sources */,
+				A376D8C60B21FFAEEE95DB842B5FE1B0 /* OnboardingContentView.swift in Sources */,
+				543E493541B8D51B1B7EB73926A8257B /* PageContainer.swift in Sources */,
+				94E7CF97B76B6EB5F54CCAD493B570B7 /* PageView.swift in Sources */,
+				9A1AAA915C5789DFAF83F47F30A1C2D6 /* PageViewItem.swift in Sources */,
+				42915072935C34D188F71AE8AA9FAF65 /* paper-onboarding-dummy.m in Sources */,
+				83D170AC140A698A60E1CE243E534B6A /* PaperOnboarding.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D3BD0298FD37A8A69C06859423CB89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4865DDE2C970D891ECE62CE99CCACE2 /* Pods-MorningQuestUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD70C2A01D506360EA1931C845339039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921076FDD61321FE005207E8A186A681 /* Pods-MorningQuest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD203CBD396970AA81F961E03C3A1720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "paper-onboarding";
+			target = 436DD5906B4E1B432C3F41AB48B014DF /* paper-onboarding */;
+			targetProxy = BA5D3F3C1AC99359460022D743F2AC30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03B008A706B82A420A231B9FF5071698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E84735FC46A6B65077E206EB3AC3D74 /* Pods-MorningQuest.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MorningQuest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MorningQuest/Pods-MorningQuest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MorningQuest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		135FA8CB8FC17936E2A7A3E20EAF3ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC0FC1F0DB341F1838F19FEAE1B10262 /* Pods-MorningQuestTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MorningQuestTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MorningQuestTests/Pods-MorningQuestTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MorningQuestTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2AE674FC89D0EE31C573663B07D0715F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BF8B5886FB0529E8689BCA263130A8A /* paper-onboarding.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/paper-onboarding/paper-onboarding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/paper-onboarding/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/paper-onboarding/paper-onboarding.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = paper_onboarding;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D70F50DAD7884AD132AAB379687CAC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13A90FDC16DDF214547E9975E59A6CA3 /* Pods-MorningQuestUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MorningQuestUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MorningQuestUITests/Pods-MorningQuestUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MorningQuestUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		65842CAAD60510A32E96798C95974E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BF8B5886FB0529E8689BCA263130A8A /* paper-onboarding.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/paper-onboarding/paper-onboarding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/paper-onboarding/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/paper-onboarding/paper-onboarding.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = paper_onboarding;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		907D4BC338255BCEAF8D5CB22727E28A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C7E483D26A9A41FA5BC9C6F532EA62D /* Pods-MorningQuestUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MorningQuestUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MorningQuestUITests/Pods-MorningQuestUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MorningQuestUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E0540EE7B27B18AC6F94F740F8304EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ED564EEA2B04F957D89474FA248EE86 /* Pods-MorningQuest.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MorningQuest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MorningQuest/Pods-MorningQuest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MorningQuest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EE23C534763C291DAFA212FC9C5E8A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE447757B61BBF0318211FCDEF77B354 /* Pods-MorningQuestTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MorningQuestTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MorningQuestTests/Pods-MorningQuestTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MorningQuestTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E1152AAB433D36AFBE591D6363EBDEC /* Build configuration list for PBXNativeTarget "Pods-MorningQuestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D70F50DAD7884AD132AAB379687CAC6 /* Debug */,
+				907D4BC338255BCEAF8D5CB22727E28A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB603FC3509333BB4AE7F16C71D0EB2 /* Build configuration list for PBXNativeTarget "paper-onboarding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65842CAAD60510A32E96798C95974E34 /* Debug */,
+				2AE674FC89D0EE31C573663B07D0715F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1036A251328EAFFA32D65137EA4364E /* Build configuration list for PBXNativeTarget "Pods-MorningQuestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE23C534763C291DAFA212FC9C5E8A55 /* Debug */,
+				135FA8CB8FC17936E2A7A3E20EAF3ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAAD2C50ECA4E6CB9DEC8EB9E7CF958F /* Build configuration list for PBXNativeTarget "Pods-MorningQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B008A706B82A420A231B9FF5071698 /* Debug */,
+				E0540EE7B27B18AC6F94F740F8304EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
