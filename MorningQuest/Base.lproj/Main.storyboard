@@ -365,10 +365,15 @@
                                     <action selector="NextButtonPressed:" destination="Dcg-gN-LnP" eventType="touchUpInside" id="2CF-mV-LUJ"/>
                                 </connections>
                             </button>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Pyt-Dh-p8V">
+                                <rect key="frame" x="0.0" y="291" width="375" height="286"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="MapView" destination="Pyt-Dh-p8V" id="mxA-lb-XfG"/>
                         <segue destination="Iva-bE-LNH" kind="show" id="hcN-Z1-qKV"/>
                     </connections>
                 </viewController>
