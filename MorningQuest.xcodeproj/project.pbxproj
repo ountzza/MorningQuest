@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B7D0E831E74E5E700A31B2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D0E821E74E5E700A31B2E /* AppDelegate.swift */; };
+		4B7D0E851E74E5E700A31B2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D0E841E74E5E700A31B2E /* ViewController.swift */; };
+		4B7D0E881E74E5E700A31B2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B7D0E861E74E5E700A31B2E /* Main.storyboard */; };
+		4B7D0E8A1E74E5E700A31B2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B7D0E891E74E5E700A31B2E /* Assets.xcassets */; };
+		4B7D0E8D1E74E5E700A31B2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B7D0E8B1E74E5E700A31B2E /* LaunchScreen.storyboard */; };
+		4B7D0E981E74E5E700A31B2E /* MorningQuestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D0E971E74E5E700A31B2E /* MorningQuestTests.swift */; };
+		4B7D0EA31E74E5E700A31B2E /* MorningQuestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D0EA21E74E5E700A31B2E /* MorningQuestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B7D0E941E74E5E700A31B2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B7D0E771E74E5E700A31B2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B7D0E7E1E74E5E700A31B2E;
+			remoteInfo = MorningQuest;
+		};
+		4B7D0E9F1E74E5E700A31B2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B7D0E771E74E5E700A31B2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B7D0E7E1E74E5E700A31B2E;
+			remoteInfo = MorningQuest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B7D0E7F1E74E5E700A31B2E /* MorningQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorningQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B7D0E821E74E5E700A31B2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B7D0E841E74E5E700A31B2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B7D0E871E74E5E700A31B2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B7D0E891E74E5E700A31B2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B7D0E8C1E74E5E700A31B2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B7D0E8E1E74E5E700A31B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B7D0E931E74E5E700A31B2E /* MorningQuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorningQuestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B7D0E971E74E5E700A31B2E /* MorningQuestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorningQuestTests.swift; sourceTree = "<group>"; };
+		4B7D0E991E74E5E700A31B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B7D0E9E1E74E5E700A31B2E /* MorningQuestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorningQuestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B7D0EA21E74E5E700A31B2E /* MorningQuestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorningQuestUITests.swift; sourceTree = "<group>"; };
+		4B7D0EA41E74E5E700A31B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B7D0E7C1E74E5E700A31B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B7D0E901E74E5E700A31B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B7D0E9B1E74E5E700A31B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B7D0E761E74E5E700A31B2E = {
+			isa = PBXGroup;
+			children = (
+				4B7D0E811E74E5E700A31B2E /* MorningQuest */,
+				4B7D0E961E74E5E700A31B2E /* MorningQuestTests */,
+				4B7D0EA11E74E5E700A31B2E /* MorningQuestUITests */,
+				4B7D0E801E74E5E700A31B2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B7D0E801E74E5E700A31B2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B7D0E7F1E74E5E700A31B2E /* MorningQuest.app */,
+				4B7D0E931E74E5E700A31B2E /* MorningQuestTests.xctest */,
+				4B7D0E9E1E74E5E700A31B2E /* MorningQuestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B7D0E811E74E5E700A31B2E /* MorningQuest */ = {
+			isa = PBXGroup;
+			children = (
+				4B7D0E821E74E5E700A31B2E /* AppDelegate.swift */,
+				4B7D0E841E74E5E700A31B2E /* ViewController.swift */,
+				4B7D0E861E74E5E700A31B2E /* Main.storyboard */,
+				4B7D0E891E74E5E700A31B2E /* Assets.xcassets */,
+				4B7D0E8B1E74E5E700A31B2E /* LaunchScreen.storyboard */,
+				4B7D0E8E1E74E5E700A31B2E /* Info.plist */,
+			);
+			path = MorningQuest;
+			sourceTree = "<group>";
+		};
+		4B7D0E961E74E5E700A31B2E /* MorningQuestTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B7D0E971E74E5E700A31B2E /* MorningQuestTests.swift */,
+				4B7D0E991E74E5E700A31B2E /* Info.plist */,
+			);
+			path = MorningQuestTests;
+			sourceTree = "<group>";
+		};
+		4B7D0EA11E74E5E700A31B2E /* MorningQuestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B7D0EA21E74E5E700A31B2E /* MorningQuestUITests.swift */,
+				4B7D0EA41E74E5E700A31B2E /* Info.plist */,
+			);
+			path = MorningQuestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B7D0E7E1E74E5E700A31B2E /* MorningQuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B7D0EA71E74E5E700A31B2E /* Build configuration list for PBXNativeTarget "MorningQuest" */;
+			buildPhases = (
+				4B7D0E7B1E74E5E700A31B2E /* Sources */,
+				4B7D0E7C1E74E5E700A31B2E /* Frameworks */,
+				4B7D0E7D1E74E5E700A31B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MorningQuest;
+			productName = MorningQuest;
+			productReference = 4B7D0E7F1E74E5E700A31B2E /* MorningQuest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B7D0E921E74E5E700A31B2E /* MorningQuestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B7D0EAA1E74E5E700A31B2E /* Build configuration list for PBXNativeTarget "MorningQuestTests" */;
+			buildPhases = (
+				4B7D0E8F1E74E5E700A31B2E /* Sources */,
+				4B7D0E901E74E5E700A31B2E /* Frameworks */,
+				4B7D0E911E74E5E700A31B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B7D0E951E74E5E700A31B2E /* PBXTargetDependency */,
+			);
+			name = MorningQuestTests;
+			productName = MorningQuestTests;
+			productReference = 4B7D0E931E74E5E700A31B2E /* MorningQuestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B7D0E9D1E74E5E700A31B2E /* MorningQuestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B7D0EAD1E74E5E700A31B2E /* Build configuration list for PBXNativeTarget "MorningQuestUITests" */;
+			buildPhases = (
+				4B7D0E9A1E74E5E700A31B2E /* Sources */,
+				4B7D0E9B1E74E5E700A31B2E /* Frameworks */,
+				4B7D0E9C1E74E5E700A31B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B7D0EA01E74E5E700A31B2E /* PBXTargetDependency */,
+			);
+			name = MorningQuestUITests;
+			productName = MorningQuestUITests;
+			productReference = 4B7D0E9E1E74E5E700A31B2E /* MorningQuestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B7D0E771E74E5E700A31B2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Pondd;
+				TargetAttributes = {
+					4B7D0E7E1E74E5E700A31B2E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					4B7D0E921E74E5E700A31B2E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B7D0E7E1E74E5E700A31B2E;
+					};
+					4B7D0E9D1E74E5E700A31B2E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B7D0E7E1E74E5E700A31B2E;
+					};
+				};
+			};
+			buildConfigurationList = 4B7D0E7A1E74E5E700A31B2E /* Build configuration list for PBXProject "MorningQuest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B7D0E761E74E5E700A31B2E;
+			productRefGroup = 4B7D0E801E74E5E700A31B2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B7D0E7E1E74E5E700A31B2E /* MorningQuest */,
+				4B7D0E921E74E5E700A31B2E /* MorningQuestTests */,
+				4B7D0E9D1E74E5E700A31B2E /* MorningQuestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B7D0E7D1E74E5E700A31B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B7D0E8D1E74E5E700A31B2E /* LaunchScreen.storyboard in Resources */,
+				4B7D0E8A1E74E5E700A31B2E /* Assets.xcassets in Resources */,
+				4B7D0E881E74E5E700A31B2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B7D0E911E74E5E700A31B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B7D0E9C1E74E5E700A31B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B7D0E7B1E74E5E700A31B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B7D0E851E74E5E700A31B2E /* ViewController.swift in Sources */,
+				4B7D0E831E74E5E700A31B2E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B7D0E8F1E74E5E700A31B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B7D0E981E74E5E700A31B2E /* MorningQuestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B7D0E9A1E74E5E700A31B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B7D0EA31E74E5E700A31B2E /* MorningQuestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B7D0E951E74E5E700A31B2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B7D0E7E1E74E5E700A31B2E /* MorningQuest */;
+			targetProxy = 4B7D0E941E74E5E700A31B2E /* PBXContainerItemProxy */;
+		};
+		4B7D0EA01E74E5E700A31B2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B7D0E7E1E74E5E700A31B2E /* MorningQuest */;
+			targetProxy = 4B7D0E9F1E74E5E700A31B2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B7D0E861E74E5E700A31B2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B7D0E871E74E5E700A31B2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B7D0E8B1E74E5E700A31B2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B7D0E8C1E74E5E700A31B2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B7D0EA51E74E5E700A31B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B7D0EA61E74E5E700A31B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B7D0EA81E74E5E700A31B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MorningQuest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pondd.MorningQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4B7D0EA91E74E5E700A31B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MorningQuest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pondd.MorningQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4B7D0EAB1E74E5E700A31B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MorningQuestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pondd.MorningQuestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MorningQuest.app/MorningQuest";
+			};
+			name = Debug;
+		};
+		4B7D0EAC1E74E5E700A31B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MorningQuestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pondd.MorningQuestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MorningQuest.app/MorningQuest";
+			};
+			name = Release;
+		};
+		4B7D0EAE1E74E5E700A31B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MorningQuestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pondd.MorningQuestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MorningQuest;
+			};
+			name = Debug;
+		};
+		4B7D0EAF1E74E5E700A31B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MorningQuestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pondd.MorningQuestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MorningQuest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B7D0E7A1E74E5E700A31B2E /* Build configuration list for PBXProject "MorningQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B7D0EA51E74E5E700A31B2E /* Debug */,
+				4B7D0EA61E74E5E700A31B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B7D0EA71E74E5E700A31B2E /* Build configuration list for PBXNativeTarget "MorningQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B7D0EA81E74E5E700A31B2E /* Debug */,
+				4B7D0EA91E74E5E700A31B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B7D0EAA1E74E5E700A31B2E /* Build configuration list for PBXNativeTarget "MorningQuestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B7D0EAB1E74E5E700A31B2E /* Debug */,
+				4B7D0EAC1E74E5E700A31B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B7D0EAD1E74E5E700A31B2E /* Build configuration list for PBXNativeTarget "MorningQuestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B7D0EAE1E74E5E700A31B2E /* Debug */,
+				4B7D0EAF1E74E5E700A31B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B7D0E771E74E5E700A31B2E /* Project object */;
+}
